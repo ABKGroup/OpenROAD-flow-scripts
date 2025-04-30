@@ -16,7 +16,7 @@
 # DESIGN_CONFIG=./designs/nangate45/bp_quad/config.mk
 # DESIGN_CONFIG=./designs/nangate45/dynamic_node/config.mk
 # DESIGN_CONFIG=./designs/nangate45/gcd/config.mk
-# DESIGN_CONFIG=./designs/nangate45/ibex/config.mk
+DESIGN_CONFIG=./designs/nangate45/ibex/config.mk
 # DESIGN_CONFIG=./designs/nangate45/jpeg/config.mk
 # DESIGN_CONFIG=./designs/nangate45/mempool_group/config.mk
 # DESIGN_CONFIG=./designs/nangate45/swerv/config.mk

@@ -222,8 +222,6 @@ def load_init_placement(file_name):
     instName = items[0]
     x = int(float(items[1]))
     y = int(float(items[2]))
-    x = -1
-    y = -1
 
     # Set the position of the instance    
     inst = block.findInst(instName)
@@ -348,9 +346,12 @@ if __name__ == "__main__":
     load_init_placement("init_placement_test.txt")
 
     run_incremental_placement(design)
-
+    print("Finished running global placement and detailed placement.")
+    print("\n")
+    print("*************************************************************************************************")
     print("Please use the generated 3_3_place_gp.def and 3_3_place_gp.odb files for remaining flows.")
+    print("You can use OpenROAD GUI to visualize the placement: openroad -gui")
+    print("After opening the OpenROAD GUI, then go to File -> Open DB and select the 3_3_place_gp.odb file.")
+    print("*************************************************************************************************")
     print("Good luck with your project!")
-
-
-
+    print("*************************************************************************************************")

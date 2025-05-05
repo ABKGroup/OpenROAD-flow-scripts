@@ -16,7 +16,7 @@
 # DESIGN_CONFIG=./designs/nangate45/bp_quad/config.mk
 # DESIGN_CONFIG=./designs/nangate45/dynamic_node/config.mk
 # DESIGN_CONFIG=./designs/nangate45/gcd/config.mk
-DESIGN_CONFIG=./designs/nangate45/ibex/config.mk
+# DESIGN_CONFIG=./designs/nangate45/ibex/config.mk
 # DESIGN_CONFIG=./designs/nangate45/jpeg/config.mk
 # DESIGN_CONFIG=./designs/nangate45/mempool_group/config.mk
 # DESIGN_CONFIG=./designs/nangate45/swerv/config.mk
@@ -54,7 +54,7 @@ DESIGN_CONFIG=./designs/nangate45/ibex/config.mk
 
 # DESIGN_CONFIG=./designs/asap7/aes/config.mk
 # DESIGN_CONFIG=./designs/asap7/ethmac/config.mk
-# DESIGN_CONFIG=./designs/asap7/gcd/config.mk
+DESIGN_CONFIG=./designs/asap7/gcd/config.mk
 # DESIGN_CONFIG=./designs/asap7/ibex/config.mk
 # DESIGN_CONFIG=./designs/asap7/jpeg/config.mk
 # DESIGN_CONFIG=./designs/asap7/megaboom/config.mk
